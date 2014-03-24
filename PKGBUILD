@@ -7,7 +7,7 @@ pkgdesc="Patches the proprietary Catalyst driver to allow running OpenCL applica
 url="https://github.com/lgeek/catalyst-test-compat-headless-opencl"
 arch=('x86_64' 'i686')
 license=('BSD')
-depends=('catalyst-test-compat=13.3' 'systemd' 'amdapp-sdk')
+depends=('systemd')
 install='catalyst-test-compat-headless-opencl.install'
 source=("catalyst-headless-setup.service"
         "catalyst-headless-setup.sh"
